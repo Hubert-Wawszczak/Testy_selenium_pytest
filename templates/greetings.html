@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Greetings List</title>
+</head>
+<body>
+    <h1>List of Greetings</h1>
+    <ul>
+        {% for greeting in greetings %}
+            <li>Hello, {{ greeting.name }}!</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
