@@ -12,6 +12,38 @@ Aby uruchomić testy, upewnij się, że masz zainstalowane następujące zależn
 - Selenium
 - Inne zależności z pliku `requirements.txt`
 
+## Struktura projektu
+
+- `app.py`: Główny plik aplikacji Flask.
+- `test_gui.py`: Testy interfejsu użytkownika przy użyciu Selenium.
+- `test_app.py`: Testy jednostkowe aplikacji.
+- `templates/`: Szablony HTML używane przez aplikację.
+- `greetings.db`: Baza danych SQLite przechowująca przywitania.
+
+## Funkcje
+
+- Użytkownicy mogą wprowadzić swoje imię i zatwierdzić je.
+- Aplikacja wyświetli przywitanie na stronie głównej.
+- Możliwość wyświetlenia listy wcześniejszych przywitaniach na stronie "/greetings".
+
+## Instalacja
+
+1. Sklonuj repozytorium na swój lokalny komputer:
+`git clone https://github.com/Hubert-Wawszczak/Testy_selenium_pytest.git`
+
+2. Przejdź do katalogu projektu:
+
+3. Zainstaluj zależności przy użyciu `pip`:
+
+`pip install -r requirements.txt`
+
+
+## Uruchomienie
+
+Aby uruchomić aplikację, użyj poniższej komendy:
+
+`python app.py`
+
 ## Uruchamianie Testów
 
 ### Testy Jednostkowe
