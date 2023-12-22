@@ -1,3 +1,4 @@
+#Author Hubert Wawszczak
 
 from lab1.sqrt_calculator import oblicz_sqrt
 import pytest

@@ -1,8 +1,9 @@
+#Author Hubert Wawszczak
 
 from fastapi import FastAPI
-from crud import create_person, read_person, update_person, delete_person
-from models import Person
-from database import get_db_connection
+from lab3.crud import create_person, read_person, update_person, delete_person
+from lab3.models import Person
+from lab3.database import get_db_connection
 import uvicorn
 
 app = FastAPI()
@@ -37,4 +38,4 @@ async def api_delete_person(person_id: int):
     return delete_person(person_id)
 
 if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(app, port=8000)

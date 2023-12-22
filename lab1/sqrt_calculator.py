@@ -1,3 +1,4 @@
+#Author Hubert Wawszczak
 
 def oblicz_sqrt(liczba):
     if liczba < 0:

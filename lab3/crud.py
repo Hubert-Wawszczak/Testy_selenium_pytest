@@ -1,6 +1,6 @@
 
-from database import get_db_connection
-from models import Person
+from lab3.database import get_db_connection
+from lab3.models import Person
 from fastapi import HTTPException
 
 def create_person(person: Person):

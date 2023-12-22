@@ -1,3 +1,4 @@
+#Author Hubert Wawszczak
 
 import sqlite3
 
